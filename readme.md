@@ -1,6 +1,7 @@
 # Cbox++ *Extending Cbox.ws Capabilities*
 ## Copyright and License
 (C)Copyright 2016, Austin Williamson <tinoesroho@gmail.com>
+
 All Rights Reserved
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -14,6 +15,4 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 # About Cbox++
 Cbox++ was born out of sleep deprivation. The example img bbcode in the filter inspired me to go beyond the bounds of cbox.ws and write my own code. This caused a week-long descent into madness, over the span of two years, culminating in this easy-to-install code.
 
-Cbox++ can only be installed on Cbox Premium or grandfathered Cbox Premium (pre-2015) licenses due to restrictions put in place by cbox.ws. A modified cbox++ - 'lite' is included in the lite.txt
-
-Installation is easy. Simply copy code from files and paste on the appropriate pages, click save, and done.
+I have included three flavors here. For Cbox Premium activated before 2015 or for current Cbox Pro, please use Cbox++. For current cbox Premium, please use Cbox++ Lite. For free cboxes, please use Cbox++ Pico.
