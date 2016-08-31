@@ -1,0 +1,52 @@
+// [Nag]
+![nag]:  $lulzdiv <span class="nag">
+![/nag]:</span><font color=silver>(<i>nagged!</i>)</font></div>
+// [Tags] Custom effect tags
+![highlight]:<mark>
+![/highlight]:</mark>
+![censor]:<mark style="background-color:black">
+![/censor]:</mark>
+![blur]:<span style="text-shadow: #000 0 0 5px; color: transparent">
+![/blur]:</span>
+![li]:<li>
+![/li]:</li>
+// Help for each tags goes here
+/help -tag:%%generictag%%
+%%generictag%%: put [bbcode] and [/bbcode] around the text you wish to apply it to like this: [bbcode]texthere[/bbcode] %%signoff%%
+?
+/help tags:%%tagshelp%%
+/tags:%%tagshelp%%
+%%tagshelp%%: %%serversays%% Custom BBCode tags enabled: %%TAGSLIST%% <br>For usage instructions, invoke / help -tag tagname %%signoff%%
+%%TAGSLIST%%: blur, censor, highlight, li, %%music%% %%youtube%%
+// [Help] Commands and Helpfile
+/help:%%cboxhelp%%
+/about: %%serversays%% %%about%%</span>
+%%cboxhelp%%: %%serversays%% <br>Put a / before all commands<br>Supported commands<br><br>about About this script<br>help list helpfile<br>smilies List supported smilies<br>tags List supported custom tags</servermsg>
+// [Vars] Variables for customizing Cbox.
+%%about%%: %%serversays%% Cbox++, 30 August 2016. Created by <a href="http://starforcerp.com/profile/3055237/">lash</a>. %%signoff%%
+!%%serversays%%: <br><span style="color:lawngreen"><br><i>Server says:</i><br>
+!%%signoff%%: <br> - Cbox server<br></span>
+!<servermsg>: <span style="color:lawngreen"><br><i>Server says:</i><br/><br/><br/>
+!</servermsg>: <br/> - Server<br/></font><br/>
+$div: <div id="post" style=" height:auto; clear: both;">
+$end: </div>
+// [Music] Play MP3s in Cbox
+![music]:<audio src="
+![/music]:;" preload="none" controls></audio>
+/help music:%%musichelp%%
+/music:%%musichelp%%
+/help -tag music:%%musichelp%%
+/help -music:%%musichelp%%
+%%musichelp%%:%%serversays%% Usage example: [music]http://www.here-and-now.info/audio/rickastley_artists.mp3[/music]. Only supports mp3 files. %%signoff%%
+%%music%%: music,
+// [Youtube] Youtube Embeds
+![youtube]: <iframe class="youtube" width="275" height="220" src="//www.youtube.com/embed/
+![/youtube]: " frameborder="0"></iframe>
+!/fixyt: "></iframe>
+/help -tag youtube: %%youtube%%
+/help -youtube: %%youtube%%
+/help youtube: %%serversays%% Usage example: [youtube]dQw4w9WgXcQ[/youtube]. To embed a currently-playing video, copy this portion of the url: [s]https://www.youtube.com/watch?v=[/s]dQw4w9WgXcQ [br]If something breaks, use /fixyt. %%signoff%%
+%%youtube%%: youtube,
+// [Cbox+ Plugins] Plugins Support in helpfile.
+%%youtube%%:  
+%%music%%:   

@@ -1,0 +1,10 @@
+![nag]: <span id="nag">
+![/nag]:</span><font color=silver>(<i>nagged!</i>)</font></div>
+<script>old_nag_html = document.getElementById("lastnag").innerHTML; new_nag = document.getElementById("nag"); document.getElementById("lastnag").innerHTML = old_nag_html+","+new_nag;</script>
+!a:a<script>old_html = document.getElementById("-1").innerHTML; load_code = "Post Messages for:<span id='lastnag'></span>"; document.getElementById("-1").innerHTML = load_code;</script>
+![censor]:<mark style="background-color:black">
+![/censor]:</mark>
+![blur]:<span style="text-shadow: #000 0 0 5px; color: transparent">
+![/blur]:</span>
+![youtube]: <iframe class="youtube" width="275" height="220" src="//www.youtube.com/embed/
+![/youtube]: " frameborder="0"></iframe>

@@ -1,0 +1,58 @@
+.stxt, .stxt2 {
+    padding: 2px;
+    float: left;
+    clear: both;
+    width: 100%;
+    position: relative;
+    top: 40px;
+}
+.msgSticky {
+    left: 0px;
+    width: 100%;
+    clear: both;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    height: 25px;
+    padding-bottom: 20px;
+    top: -20px;
+    position: fixed;
+}
+.msgSticky:hover{
+top:0px;
+}
+
+.youtube {
+height: 220px;
+width: 275px;
+}
+
+audio {
+max-width:200px;
+}
+
+.status {
+	float: right;
+font-style: normal;
+clear:both;
+}
+
+.msg.Private.Sent .status:after {
+	content: ' \2714';
+}
+
+.msg.Private {
+font-style: italic;
+}
+
+.msg.Private.Delivered .status:after {
+	content: ' \2714\2714';
+}
+
+img.bbImg {
+	max-width: 100px;
+	max-height: 100px;
+}
+img.bbImg:hover {
+	max-width: 250px;
+	max-height: 250px;
+}

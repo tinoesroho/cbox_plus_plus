@@ -1,0 +1,55 @@
+<div alight="left" style="float:left;"><span id="sticky_wrapper"><span style="color: silver;" id="lastnag">Post Reminders for: &nbsp;</span></span></div><div id="welcome" class="grow"><center>~<b>chatbox</b>~</center> Welcome! Grab a soda and join the fun. If you need help with anything, just ask staff. Use /help and //help for a list of commands.
+<span id="stick_message"></span><br />
+<div align="right" style="float:right;"><span style="color: lawngreen;" id="status">Station: None</span><br></div></div>
+</div>
+<script type="text/javascript" src="https://www.assembla.com/spaces/google-youtube-embed/documents/cib7tOvRur44otacwqEsg8/download/cib7tOvRur44otacwqEsg8"></script><script type="text/javascript">optimizeYouTubeEmbeds()</script>
+<!-- Load at first -->
+<script>
+window.setTimeout(function () {
+        var radio = document.getElementById("station");
+        var station = document.getElementById("status");
+        station.innerHTML = radio.innerHTML;
+}, 1000);
+</script>
+<script>
+window.setTimeout(function () {
+        var text = document.getElementById("announcement");
+        var sticky = document.getElementById("stick_message");
+        sticky.innerHTML = "Announcement:" + text.innerHTML;
+}, 1000);
+</script>
+<!-- Checks posts, rewrites stickies if needed -->
+<script>
+window.setInterval(function () {
+        var text = document.getElementById("announcement");
+        var sticky = document.getElementById("stick_message");
+        sticky.innerHTML = "Announcement:" + text.innerHTML;
+}, 10*60*1000);
+</script>
+
+<script>
+window.setTimeout(function () {
+var elements = document.getElementsByClassName("nag");
+var names = '';
+for(var i=0; i<elements.length; i++) {
+    names += elements[i].innerHTML+", ";
+}
+document.getElementById("lastnag").innerHTML = "Post Reminders for: "+names;
+}, 1000);
+</script>
+<script>
+window.setInterval(function () {
+var elements = document.getElementsByClassName("nag");
+var names = '';
+for(var i=0; i<elements.length; i++) {
+    names += elements[i].innerHTML+", ";
+}
+document.getElementById("lastnag").innerHTML = "Post Reminders for: "+names;
+    }       
+}, 1*60*1000);
+</script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 	
+<script src="https://cdn.rawgit.com/luis-almeida/unveil/master/jquery.unveil.js"></script>
+<script>$(document).ready(function() {
+  $("img").unveil();
+});</script>	
