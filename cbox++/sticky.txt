@@ -1,6 +1,6 @@
 <div alight="left" style="float:left;"><span id="sticky_wrapper"><span style="color: silver;" id="lastnag">Post Reminders for: &nbsp;</span></span></div><div id="welcome" class="grow"><center>~<b>chatbox</b>~</center> Welcome! Grab a soda and join the fun. If you need help with anything, just ask staff. Use /help and //help for a list of commands.
 <span id="stick_message"></span><br />
-<div align="right" style="float:right;"><span style="color: lawngreen;" id="status">Station: None</span><br></div></div>
+<div align="right" style="float:right;"><span style="color: lawngreen;" id="status"></span><br></div></div>
 </div>
 <script type="text/javascript" src="https://www.assembla.com/spaces/google-youtube-embed/documents/cib7tOvRur44otacwqEsg8/download/cib7tOvRur44otacwqEsg8"></script><script type="text/javascript">optimizeYouTubeEmbeds()</script>
 <!-- Load at first -->
